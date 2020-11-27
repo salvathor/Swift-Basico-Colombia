@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD76E529256FE0AF00C91E8B /* js.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD76E528256FE0AF00C91E8B /* js.jpg */; };
+		CD76E52C256FE0B900C91E8B /* swift.png in Resources */ = {isa = PBXBuildFile; fileRef = CD76E52B256FE0B900C91E8B /* swift.png */; };
+		CD76E531256FE3BC00C91E8B /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD76E530256FE3BC00C91E8B /* ViewController2.swift */; };
+		CD76E5352570231B00C91E8B /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD76E5342570231B00C91E8B /* ViewController3.swift */; };
+		CD76E538257023CA00C91E8B /* flower.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD76E537257023CA00C91E8B /* flower.jpeg */; };
+		CD76E53C2571350F00C91E8B /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD76E53B2571350F00C91E8B /* ViewController4.swift */; };
+		CD76E53F2571374000C91E8B /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD76E53E2571373F00C91E8B /* Menu.swift */; };
+		CD76E542257161E500C91E8B /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD76E541257161E400C91E8B /* ViewController5.swift */; };
+		CD76E545257162A300C91E8B /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = CD76E544257162A200C91E8B /* images.png */; };
 		CDF8BC29256C010000453EE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8BC28256C010000453EE0 /* AppDelegate.swift */; };
 		CDF8BC2B256C010000453EE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8BC2A256C010000453EE0 /* SceneDelegate.swift */; };
 		CDF8BC2D256C010000453EE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8BC2C256C010000453EE0 /* ViewController.swift */; };
@@ -16,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD76E528256FE0AF00C91E8B /* js.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = js.jpg; sourceTree = "<group>"; };
+		CD76E52B256FE0B900C91E8B /* swift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swift.png; sourceTree = "<group>"; };
+		CD76E530256FE3BC00C91E8B /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		CD76E5342570231B00C91E8B /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		CD76E537257023CA00C91E8B /* flower.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower.jpeg; sourceTree = "<group>"; };
+		CD76E53B2571350F00C91E8B /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		CD76E53E2571373F00C91E8B /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		CD76E541257161E400C91E8B /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		CD76E544257162A200C91E8B /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
 		CDF8BC25256C010000453EE0 /* ejemplo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ejemplo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF8BC28256C010000453EE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDF8BC2A256C010000453EE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD76E52E256FE0D400C91E8B /* img */ = {
+			isa = PBXGroup;
+			children = (
+				CD76E528256FE0AF00C91E8B /* js.jpg */,
+				CD76E52B256FE0B900C91E8B /* swift.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
 		CDF8BC1C256C010000453EE0 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +83,21 @@
 		CDF8BC27256C010000453EE0 /* ejemplo1 */ = {
 			isa = PBXGroup;
 			children = (
+				CD76E52E256FE0D400C91E8B /* img */,
 				CDF8BC28256C010000453EE0 /* AppDelegate.swift */,
 				CDF8BC2A256C010000453EE0 /* SceneDelegate.swift */,
 				CDF8BC2C256C010000453EE0 /* ViewController.swift */,
 				CDF8BC2E256C010000453EE0 /* Main.storyboard */,
+				CD76E53B2571350F00C91E8B /* ViewController4.swift */,
+				CD76E541257161E400C91E8B /* ViewController5.swift */,
+				CD76E53E2571373F00C91E8B /* Menu.swift */,
+				CD76E5342570231B00C91E8B /* ViewController3.swift */,
+				CD76E530256FE3BC00C91E8B /* ViewController2.swift */,
 				CDF8BC31256C010600453EE0 /* Assets.xcassets */,
 				CDF8BC33256C010600453EE0 /* LaunchScreen.storyboard */,
 				CDF8BC36256C010600453EE0 /* Info.plist */,
+				CD76E537257023CA00C91E8B /* flower.jpeg */,
+				CD76E544257162A200C91E8B /* images.png */,
 			);
 			path = ejemplo1;
 			sourceTree = "<group>";
@@ -124,9 +159,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD76E529256FE0AF00C91E8B /* js.jpg in Resources */,
 				CDF8BC35256C010600453EE0 /* LaunchScreen.storyboard in Resources */,
 				CDF8BC32256C010600453EE0 /* Assets.xcassets in Resources */,
+				CD76E52C256FE0B900C91E8B /* swift.png in Resources */,
+				CD76E545257162A300C91E8B /* images.png in Resources */,
 				CDF8BC30256C010000453EE0 /* Main.storyboard in Resources */,
+				CD76E538257023CA00C91E8B /* flower.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +176,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD76E5352570231B00C91E8B /* ViewController3.swift in Sources */,
+				CD76E53C2571350F00C91E8B /* ViewController4.swift in Sources */,
+				CD76E53F2571374000C91E8B /* Menu.swift in Sources */,
 				CDF8BC2D256C010000453EE0 /* ViewController.swift in Sources */,
+				CD76E542257161E500C91E8B /* ViewController5.swift in Sources */,
+				CD76E531256FE3BC00C91E8B /* ViewController2.swift in Sources */,
 				CDF8BC29256C010000453EE0 /* AppDelegate.swift in Sources */,
 				CDF8BC2B256C010000453EE0 /* SceneDelegate.swift in Sources */,
 			);
@@ -216,7 +260,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,6 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FNTB26538C;
 				INFOPLIST_FILE = ejemplo1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +353,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FNTB26538C;
 				INFOPLIST_FILE = ejemplo1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
